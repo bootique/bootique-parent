@@ -3,14 +3,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.nhl.launcher</groupId>
-	<artifactId>launcher-parent</artifactId>
+	<groupId>com.nhl.bootique.parent</groupId>
+	<artifactId>bootique-parent</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>A parent of Launcher-based projects</name>
+	<name>A parent of Bootique-based projects</name>
 	<description>
-		A parent of Launcher-based projects.
+		A parent of Bootique-based projects that defines executable jar packaging strategy, upstream repositories, 
+		and important plugin versions. It is not required that your apps inherit from it. But it does help
+		with initial app setup.
 	</description>
 
 	<url>http://www.nhl.com/</url>
@@ -26,16 +28,24 @@
 	</properties>
 
 	<scm>
-		<developerConnection>scm:git:ssh://git.nhl.com/repos/launcher/</developerConnection>
+		<developerConnection>scm:git:ssh://git@github.com/nhl/bootique-parent</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
+
+	<licenses>
+		<license>
+			<name>BSD License</name>
+			<url>https://github.com/nhl/bootique/blob/master/LICENSE.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
 	<distributionManagement>
 		<repository>
 			<uniqueVersion>false</uniqueVersion>
-			<id>launcher-libs</id>
-			<name>Launcher Integration Libraries Deployment Repository</name>
-			<url>http://maven.nhl.com/content/repositories/launcher/</url>
+			<id>linkrest-releases</id>
+			<name>Bootique Deployment Repository</name>
+			<url>http://maven.objectstyle.org/nexus/content/repositories/linkrestreleases</url>
 		</repository>
 	</distributionManagement>
 
@@ -56,20 +66,19 @@
 
 	<repositories>
 		<repository>
-			<id>nhl2upstream</id>
-			<name>NHL Artifacts</name>
-			<url>http://maven.nhl.com/content/groups/nhl2upstream</url>
+			<id>bootique-dependencies</id>
+			<name>Bootique Dependencies Repo</name>
+			<url>http://maven.objectstyle.org/nexus/content/groups/linkrest</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
 	</repositories>
-
 	<pluginRepositories>
 		<pluginRepository>
-			<id>nhl2upstream</id>
-			<name>NHL Artifacts</name>
-			<url>http://maven.nhl.com/content/groups/nhl2upstream/</url>
+			<id>bootique-dependencies</id>
+			<name>Bootique Dependencies Repo</name>
+			<url>http://maven.objectstyle.org/nexus/content/groups/linkrest</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
