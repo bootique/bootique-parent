@@ -1,2 +1,1 @@
-# bootique-parent
-A prent POM for Bootique, its extensions, and optionally - Bootique-based apps
+A parent POM for Bootique, its extensions, and optionally - Bootique-based apps
