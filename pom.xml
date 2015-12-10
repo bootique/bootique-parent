@@ -34,7 +34,7 @@
 
 	<licenses>
 		<license>
-			<name>BSD License</name>
+			<name>Apache 2.0 License</name>
 			<url>https://github.com/nhl/bootique/blob/master/LICENSE.txt</url>
 			<distribution>repo</distribution>
 		</license>
