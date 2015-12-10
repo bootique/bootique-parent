@@ -1,1 +1,1 @@
-A parent POM for Bootique, its extensions, and optionally - Bootique-based apps
+A parent POM for [Bootique](https://github.com/nhl/bootique), its extensions, and optionally - Bootique-based apps
