@@ -4,7 +4,7 @@
 
 	<groupId>com.nhl.bootique.parent</groupId>
 	<artifactId>bootique-parent</artifactId>
-	<version>0.6-SNAPSHOT</version>
+	<version>0.5-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>A parent of Bootique-based projects</name>
@@ -44,7 +44,7 @@
 			<uniqueVersion>false</uniqueVersion>
 			<id>linkrest-releases</id>
 			<name>Bootique Deployment Repository</name>
-			<url>http://maven.objectstyle.org/nexus/content/repositories/linkrestreleases</url>
+			<url>http://maven.objectstyle.org/nexus/content/repositories/bootique/</url>
 		</repository>
 	</distributionManagement>
 
@@ -67,7 +67,7 @@
 		<repository>
 			<id>bootique-dependencies</id>
 			<name>Bootique Dependencies Repo</name>
-			<url>http://maven.objectstyle.org/nexus/content/groups/linkrest</url>
+			<url>http://maven.objectstyle.org/nexus/content/groups/bootique-upstream/</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
@@ -77,7 +77,7 @@
 		<pluginRepository>
 			<id>bootique-dependencies</id>
 			<name>Bootique Dependencies Repo</name>
-			<url>http://maven.objectstyle.org/nexus/content/groups/linkrest</url>
+			<url>http://maven.objectstyle.org/nexus/content/groups/bootique-upstream/</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
