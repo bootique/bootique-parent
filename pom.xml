@@ -75,7 +75,6 @@
 	</dependencyManagement>
 
 	<build>
-		<defaultGoal>verify</defaultGoal>
 		<pluginManagement>
 			<plugins>
 				<plugin>
