@@ -26,8 +26,19 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
+	<developers>
+		<developer>
+			<id>andrus</id>
+			<name>Andrus Adamchik</name>
+			<email>andrus@objectstyle.com</email>
+			<organization>ObjectStyle</organization>
+			<timezone>America/New_York</timezone>
+		</developer>
+	</developers>
+	
 	<scm>
 		<developerConnection>scm:git:ssh://git@github.com/nhl/bootique-parent</developerConnection>
+		<url>https://github.com/nhl/bootique-parent</url>
 		<tag>HEAD</tag>
 	</scm>
 
