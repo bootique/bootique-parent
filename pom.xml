@@ -39,7 +39,7 @@
 	<scm>
 		<developerConnection>scm:git:ssh://git@github.com/nhl/bootique-parent</developerConnection>
 		<url>https://github.com/nhl/bootique-parent</url>
-		<tag>bootique-parent-0.10</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<licenses>
