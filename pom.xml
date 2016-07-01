@@ -7,7 +7,7 @@
 	<version>0.11-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>A parent of Bootique-based projects</name>
+	<name>bootique-parent: A convenience parent of Bootique-based projects.</name>
 	<description>
 		A parent of Bootique-based projects that defines executable jar packaging strategy, upstream repositories, 
 		and important plugin versions. It is not required that your apps inherit from it. But it does help
@@ -24,6 +24,8 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+		<main.class></main.class>
 	</properties>
 
 	<developers>
