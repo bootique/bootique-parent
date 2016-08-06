@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nhl/bootique-parent.svg)](https://travis-ci.org/nhl/bootique-parent)
+[![Build Status](https://travis-ci.org/bootique/bootique-parent.svg)](https://travis-ci.org/bootique/bootique-parent)
 
 
-A parent POM for [Bootique](https://github.com/nhl/bootique), its extensions, and optionally - Bootique-based apps
+An optional parent POM for [Bootique](http://bootique.io)-based apps. Helps with runnable jar packaging, etc.
