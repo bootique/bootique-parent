@@ -4,7 +4,7 @@
 
 	<groupId>io.bootique.parent</groupId>
 	<artifactId>bootique-parent</artifactId>
-	<version>0.12-SNAPSHOT</version>
+	<version>0.12</version>
 	<packaging>pom</packaging>
 
 	<name>bootique-parent: A convenience parent of Bootique-based projects.</name>
@@ -41,7 +41,7 @@
 	<scm>
 		<developerConnection>scm:git:ssh://git@github.com/bootique/bootique-parent</developerConnection>
 		<url>https://github.com/bootique/bootique-parent</url>
-		<tag>HEAD</tag>
+		<tag>bootique-parent-0.12</tag>
 	</scm>
 
 	<licenses>
