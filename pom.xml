@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.nhl.bootique.parent</groupId>
+	<groupId>io.bootique.parent</groupId>
 	<artifactId>bootique-parent</artifactId>
 	<version>0.12-SNAPSHOT</version>
 	<packaging>pom</packaging>
@@ -16,7 +16,7 @@
 
 	<url>http://bootique.io</url>
 	<organization>
-		<name>National Hockey League</name>
+		<name>ObjectStyle LLC</name>
 	</organization>
 
 	<properties>
@@ -25,7 +25,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<main.class>com.nhl.bootique.Bootique</main.class>
+		<main.class>io.bootique.Bootique</main.class>
 	</properties>
 
 	<developers>
@@ -39,15 +39,15 @@
 	</developers>
 
 	<scm>
-		<developerConnection>scm:git:ssh://git@github.com/nhl/bootique-parent</developerConnection>
-		<url>https://github.com/nhl/bootique-parent</url>
+		<developerConnection>scm:git:ssh://git@github.com/bootique/bootique-parent</developerConnection>
+		<url>https://github.com/bootique/bootique-parent</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<licenses>
 		<license>
 			<name>Apache 2.0 License</name>
-			<url>https://github.com/nhl/bootique/blob/master/LICENSE</url>
+			<url>https://github.com/bootique/bootique/blob/master/LICENSE</url>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
