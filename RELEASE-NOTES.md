@@ -1,3 +1,7 @@
+## 0.13
+
+* #3 Delete dependencyManagement section from parent pom.
+
 ## 0.12
 
 * #2 Move to io.bootique namespace
