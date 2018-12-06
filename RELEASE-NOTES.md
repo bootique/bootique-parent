@@ -2,6 +2,7 @@
 
 * #3 Delete dependencyManagement section from parent pom.
 * #5 Update maven plugins
+* #6 Update maven plugins
 
 ## 0.12
 
