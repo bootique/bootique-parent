@@ -1,3 +1,7 @@
+## 0.14
+
+* #7 Setup release via Bintray
+
 ## 0.13
 
 * #3 Delete dependencyManagement section from parent pom.
