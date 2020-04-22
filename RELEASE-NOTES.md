@@ -1,3 +1,7 @@
+## 0.15
+
+* #8 Change snapshot repository to oss.jfrog.org 
+
 ## 0.14
 
 * #7 Setup release via Bintray
