@@ -21,5 +21,5 @@ An optional parent POM for [Bootique](http://bootique.io)-based apps. Helps with
 ## Deprecation note
 
 _Since 2.x, we no longer recommend using "bootique-parent" as a parent POM of your projects. 
-It is confusing and pollutes the POM with arbitrary property declarations, dependency versions,
-etc. Instead use assembly the recipes from documentation._
+It is confusing overall and pollutes the POM with arbitrary property declarations, dependency versions,
+etc. Instead use the assembly recipes from documentation._
