@@ -16,8 +16,10 @@
   specific language governing permissions and limitations
   under the License.
   -->
-
-[![build test deploy](https://github.com/bootique/bootique-parent/actions/workflows/maven.yml/badge.svg)](https://github.com/bootique/bootique-parent/actions/workflows/maven.yml)
-
-
 An optional parent POM for [Bootique](http://bootique.io)-based apps. Helps with runnable jar packaging, etc.
+
+## Deprecation note
+
+_Since 2.x, we no longer recommend using "bootique-parent" as a parent POM of your projects. 
+It is confusing and pollutes the POM with arbitrary property declarations, dependency versions,
+etc. Instead use assembly the recipes from documentation._
